@@ -1,3 +1,25 @@
-tr, td, th{
-  border: 1px solid black;
+table{
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+table, th, td{
+  border:1px solid black;
+  padding:2px 5px;
+}
+h1{
+  text-align: center;
+}
+form{
+	margin: 0 auto;
+	text-align: center;
+	padding: 10px;
+}
+form input{
+	margin-top: 5px;
+
+}
+
+tfoot{
+  text-align: center;
 }

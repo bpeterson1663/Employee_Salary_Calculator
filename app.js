@@ -27,7 +27,7 @@ $(document).ready(function(){
     var removeSalary = $(this).data('salary')/12; //Grabs the data-salary attribute and divideds by 12 for the montly salary to be removed
     console.log(removeSalary);
     $(this).closest('.employeeRow').remove();//grabs the closest class of employeeRow and removes that
-    totalMonthlyCost -= emoveSalary;//subtracts removes Salary from totalMontlyCost
+    totalMonthlyCost -= removeSalary;//subtracts removes Salary from totalMontlyCost
     $('#monthlysalarycost').text(totalMonthlyCost); //sets HTML text when employee is deleted
   });
   $('#monthlysalarycost').text(totalMonthlyCost);

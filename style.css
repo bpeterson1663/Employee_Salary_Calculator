@@ -1,25 +1,28 @@
+body{
+   background: #b0d0f1;
+}
 table{
-    margin: 0 auto;
+    margin: 10px auto;
     border-collapse: collapse;
     text-align: center;
 }
 table, th, td{
-  border:1px solid black;
+  border:2px solid black;
   padding:2px 5px;
 }
-h1{
+tfoot{
   text-align: center;
 }
+h1, h2{
+  text-align: center;
+}
+
 form{
 	margin: 0 auto;
 	text-align: center;
 	padding: 10px;
 }
-form input{
-	margin-top: 5px;
+form input {
+	margin-top: 10px;
 
-}
-
-tfoot{
-  text-align: center;
 }
